@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS reset */
+
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+input.button {
+	display:inline;
+	color:white;
+	background-color:green;
+	font-family: Verdana;
+	padding: .25em .5em .25em .5em;
+	margin-left: 1em;
+}
+
+h1.titleHeading {
+	font-size:2em;
+	font-family:Verdana;
+}
+
+div#adding{
+	margin: 1em 1em 1em 1em;
+	padding: 1em 1em 1em 1em;
+}
+
+#inputMain {
+	width: 15em;
+}
+
+#infoDisplay {
+	padding: 0em 1em 1em 5em;
+}
+
+#output li {
+	width:20em;
+	padding: 0.25em 0.25em 0.25em 0.25em
+}
+
+ul#output {
+	width:21em;
+	margin-right:0em;
+}
+
+img.deleteButton {
+	margin-left: 0.75em;
+	width:1.2em;
+	height:1.2em;
+}
+
+p#feedbackMessage{
+	font-family:Verdana;
+	color:#00FF1E;
+	font-size:1em;
+	padding: 1em 1em 1em 1em;
+}
